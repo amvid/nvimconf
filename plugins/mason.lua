@@ -21,6 +21,7 @@ return {
         "intelephense",
         "gopls",
         "prismals",
+        "omnisharp",
       })
     end,
   },
@@ -47,7 +48,6 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "codelldb",
         "debugpy",
-        "go-debug-adapter",
         "delve",
         "js-debug-adapter",
         "node-debug2-adapter",
