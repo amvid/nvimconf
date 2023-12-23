@@ -49,7 +49,6 @@ return {
         "codelldb",
         "debugpy",
         "delve",
-        "js-debug-adapter",
         "node-debug2-adapter",
         "php-debug-adapter",
       })

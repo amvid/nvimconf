@@ -11,4 +11,3 @@ return {
     opts.window.width = 40
   end,
 }
-
