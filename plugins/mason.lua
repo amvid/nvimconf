@@ -37,6 +37,7 @@ return {
         "autopep8",
         "isort",
         "goimports",
+        "sql-formatter",
       })
     end,
   },
