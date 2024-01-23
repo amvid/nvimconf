@@ -33,6 +33,9 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
+  v = {
+    ["<C-r>"] = { '"hy:%s/<C-r>h//g<left><left>', desc = "Replace all" },
+  },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
