@@ -22,6 +22,7 @@ return {
         "gopls",
         "prismals",
         "omnisharp",
+        "jdtls",
       })
     end,
   },
