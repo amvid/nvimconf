@@ -10,7 +10,6 @@ return {
         "rust_analyzer",
         "tsserver",
         "bashls",
-        "eslint",
         "cssls",
         "html",
         "pyright",
