@@ -21,4 +21,6 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.dart" },
+  { import = "astrocommunity.pack.scala" },
 }
