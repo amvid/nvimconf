@@ -5,23 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     opts = function(_, opts)
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "lua_ls",
-        "yamlls",
-        "rust_analyzer",
-        "tsserver",
-        "bashls",
-        "cssls",
-        "html",
-        "pyright",
-        "docker_compose_language_service",
-        "dockerls",
-        "helm_ls",
-        "jsonls",
         "intelephense",
-        "gopls",
-        "prismals",
-        "omnisharp",
-        "jdtls",
       })
     end,
   },
@@ -32,11 +16,6 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "prettierd",
-        "stylua",
-        "autopep8",
-        "isort",
-        "goimports",
         "sql-formatter",
       })
     end,
@@ -46,13 +25,7 @@ return {
     -- overrides `require("mason-nvim-dap").setup(...)`
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
-      opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "codelldb",
-        "debugpy",
-        "delve",
-        "node-debug2-adapter",
-        "php-debug-adapter",
-      })
+      opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {})
     end,
   },
 }
