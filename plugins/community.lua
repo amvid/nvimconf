@@ -22,5 +22,10 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.scala" },
-  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.edgedb" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.zig" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
 }
