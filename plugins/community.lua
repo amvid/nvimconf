@@ -9,7 +9,6 @@ return {
   { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.go" },
@@ -17,10 +16,8 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.edgedb" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.toml" },
-  { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.typescript" },
 }
