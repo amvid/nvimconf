@@ -4,7 +4,7 @@ return {
     event = "User AstroFile",
     opts = {
       layout = { min_width = 40 },
-      open_automatic = true,
+      open_automatic = false,
     },
   },
 }
